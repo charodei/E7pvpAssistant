@@ -5,8 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E7 PvP Assistant</title>
-  <script type="module" crossorigin src="./assets/index.ddf80388.js"></script>
-  <link rel="stylesheet" href="./assets/index.5dcab1cb.css">
+  <script>
+    whenDataLoaded = fetch('https://ceciliabot.github.io/data/HeroDatabase.json')
+      .then(response => response.json())
+      .then(json => json)
+      .catch((error) => {
+        console.log(error);
+        //load backup json
+      });
+  </script>
+  <script type="module" crossorigin src="./assets/index.e75b66d4.js"></script>
+  <link rel="stylesheet" href="./assets/index.e16f4c46.css">
 </head>
 
 <body>
