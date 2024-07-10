@@ -12,21 +12,29 @@ Select a unit and drag&drop units he counters to the corresponding areas.
 
 ### Save&Load Data
 Import file - select .json file with configuration to load it.
+
 Export file - create .json file with your configuration.
+
 Load default - overwrite current configuration with my configuration.
+
 Reset all - resets current configuration.
+
 
 ### Select and edit a unit
 "Damage dealer" checkbox - counterpick options in recommendation list will have higher priority against damage dealers.
-"Possible good against" area - need conditions to be good against placed units or have difficulties to implement or non-meta units.
+
+"Possible good against" area - inconsistent or need conditions to be good against placed units or non-meta units.
+
 "Direct counter or strong against" area - strong counterpick against placed units.
 
-## "Counterpicks" step
-Select enemy`s units and see your counterpick options
 
-Reset - removes selected units
+## "Counterpicks" step
+Select enemy`s units and see your counterpick options.
+
+Reset - removes selected units. 
+
 No filtering from "Select units" step - unchecked units will  appear in recommendation list.
 
 
 ## Contacts
-Any bugs can be reported to Charo#7195
+Any bugs can be reported to Charo#7195 (char0dei)
